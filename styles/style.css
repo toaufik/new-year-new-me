@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.btn-primary,
+.btn-white {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    color: #fff;
+    background: #F15B22;
+    border-radius: 5px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #F15B22;
+}
+
+/* Header and banner area */
+
+.banner-area {
+    text-align: right;
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 215px 0 165px;
+    margin-top: 0;
+}
+
+.banner-area .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    ;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.banner-header {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.banner-desc {
+    margin-bottom: 30px;
+}
+
+/* Previous year */
+
+.previous-year {
+    display: flex;
+    align-items: center;
+    max-width: 1070px;
+    margin: 130px auto 0;
+    gap: 80px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    margin-bottom: 20px;
+}
+
+.check-list {
+    margin-bottom: 8px;
+}
+
+.fa-solid.fa-check {
+    color: #16D887;
+}
+
+/* My Plan Area */
+
+.my-plan {
+    max-width: 1140px;
+    margin: 130px auto 0;
+}
+
+.my-plan .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.skill-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+
+.skill-sub {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* Testimonial */
+
+.testimonial-area {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.author-img {
+    width: 125px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 1px solid #ddd;
+}
+
+.author-name {
+    font-size: 22px;
+}
+
+.testimonial-content {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Positive mindset area */
+
+.positive-mindset {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 60px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.positive-mindset .section-title {
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+
+/* Footer Area */
+
+
+footer {
+    background: #151414;
+    margin-top: 130px;
+    padding: 130px;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 220px;
+}
+
+footer .footer-info {
+    margin-right: 110px;
+}
+
+footer .section-title {
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-info img {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.newletter {
+    min-width: 300px;
+}
+
+.newletter h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+input[type="submit"] {
+    padding: 20px 35px;
+    border: none;
+    font-size: 20px;
+}
