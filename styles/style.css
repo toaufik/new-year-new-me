@@ -183,7 +183,6 @@ section {
 
 /* Footer Area */
 
-
 footer {
     background: #151414;
     margin-top: 130px;
@@ -236,7 +235,6 @@ input[type="email"] {
     border-radius: 8px;
     margin-bottom: 20px;
     color: #fff;
-
 }
 
 input[type="submit"] {
